@@ -236,7 +236,10 @@
 		"np_chan_weight", \
 		0x00000000, \
 		0x64646464, \
+		#if 0
 		0x00000000, \
+		#endif
+		0x00000001, \
 		CFG_VALUE_OR_DEFAULT, \
 		"np chan weight")
 
